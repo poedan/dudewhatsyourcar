@@ -1,0 +1,14 @@
+uuid: 1b4dba8d-f63b-4f5f-b170-8fc00f107e42
+name: 'Dude what your car'
+mail: dantpoenaru@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

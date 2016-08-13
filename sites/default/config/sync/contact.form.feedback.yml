@@ -1,0 +1,12 @@
+uuid: 07bbede8-d13b-47d3-8e2a-036d0c52119d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - dantpoenaru@gmail.com
+reply: ''
+weight: 0
