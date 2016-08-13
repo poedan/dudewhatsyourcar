@@ -1,0 +1,19 @@
+uuid: 117749fc-966c-4108-93c2-d37f586d368f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra_data
+    - node.type.number
+id: node.number.field_extra_data
+field_name: field_extra_data
+entity_type: node
+bundle: number
+label: 'Extra data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

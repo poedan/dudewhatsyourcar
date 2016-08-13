@@ -14,3 +14,6 @@ permissions:
   - 'access comments'
   - 'access site-wide contact form'
   - 'search content'
+  - 'create number content'
+  - 'delete any number content'
+  - 'delete own number content'

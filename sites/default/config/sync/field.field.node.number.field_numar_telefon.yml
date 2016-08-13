@@ -1,0 +1,19 @@
+uuid: a20212cf-ed30-4d60-aab2-fb2f23eadd8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_numar_telefon
+    - node.type.number
+id: node.number.field_numar_telefon
+field_name: field_numar_telefon
+entity_type: node
+bundle: number
+label: 'Numar telefon'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

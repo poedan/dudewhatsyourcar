@@ -1,0 +1,21 @@
+uuid: 4466eb14-19f1-49d1-88da-eb4107dcab99
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.number.field_numar_masina
+    - field.field.node.number.field_numar_telefon
+    - node.type.number
+  module:
+    - user
+id: node.number.teaser
+targetEntityType: node
+bundle: number
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_numar_masina: true
+  field_numar_telefon: true

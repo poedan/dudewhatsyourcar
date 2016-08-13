@@ -1,0 +1,39 @@
+uuid: 8c59b645-1b26-420e-a00e-74ae86dfca36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.number.field_extra_data
+    - field.field.node.number.field_numar_masina
+    - field.field.node.number.field_numar_telefon
+    - node.type.number
+  module:
+    - user
+id: node.number.default
+targetEntityType: node
+bundle: number
+mode: default
+content:
+  field_extra_data:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_numar_masina:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_numar_telefon:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: {  }
